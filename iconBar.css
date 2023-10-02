@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icon-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.icon-bar a {
+    font-size: 30px;
+    background-color: rgb(125, 143, 224);
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+}
+.icon-bar a i{
+    color: white;
+}
+.icon-bar a.active{
+    background-color: rgb(30, 38, 75);
+}
+.icon-bar a:hover{
+    background-color: rgb(79, 98, 185);
+}
